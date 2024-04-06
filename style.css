@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    padding: 50px;
+}
+.div1 {
+    position: relative;
+    width: 1400px;
+    height: 700px;
+    
+}
+.img1, .img2 {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    border-radius: 15px;
+    top: 250px;
+    left: 800px;
+    box-shadow: inset;
+    box-shadow: rgb(242, 255, 57) 10px 50px 100px 50px
+
+}
+.img2 {
+    top: 250px;
+    left: 150px;
+}
